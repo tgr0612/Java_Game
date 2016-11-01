@@ -18,7 +18,7 @@ class Bullet
     private int nHalfSize = 3;//총알의 반크기
     private Point pStart;//시작 위치
     private Point pPos;//총알의 위치
-    private Point pVel;//총알 움직일               값
+    private Point pVel;//총알 움직일                 값
     public Bullet(int x, int y)
     {
         pStart = new Point(x, y);//시작위치
