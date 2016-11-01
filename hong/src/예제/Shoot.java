@@ -18,7 +18,7 @@ public class Shoot extends JFrame implements Runnable, KeyListener {
   enList = new ArrayList();
   this.addKeyListener(this);
   this.setSize(w, h);
-  this.setTitle("Shooting Game");
+  this.setTitle("Shooting      Game");
   this.setResizable(false);
   this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   this.setVisible(true);  
